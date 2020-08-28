@@ -1,0 +1,127 @@
+body{
+	background: #34495e;
+}
+
+h1{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 65px;
+	color: #1ca7ec;
+	font-family: consolas;
+	font-weight: bold;
+}
+
+/* front side of the card */
+.card{
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	right: 40%;
+	transform: translate(-50%, -50%);
+/* 	background-image: linear-gradient(#667eea, #764ba2); */	
+	background-image: linear-gradient(to left, #787ff6, #4adede, #1ca7ec); 	
+	border-radius: 15px;
+}
+
+.card-identity{
+	margin-top: 20px;
+}
+
+.header-title, .card-number{
+	font-family: 'Viga', sans-serif;
+}
+
+.header-title{
+	color: #eee;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.header-logo{
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	left: 250px;
+	top: 10px;
+	border-radius: 21px;
+}
+
+.card-exp-info{
+	text-align: right;
+	margin-top: -63px; 
+	margin-right: 50px;
+}
+
+.card-name span{
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.card-number{
+	font-size: 25px;
+	text-align: center;
+}
+
+.card-body{
+	font-family: 'Oxygen', sans-serif;
+}
+
+/* back side of the card */
+.card-back-side{
+	width: 350px;
+	height: 200px;
+	background-image: linear-gradient(to left, #787ff6, #4adede, #1ca7ec);
+	position: absolute;
+	top: 50%;
+	left: 68%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+}
+
+.box-through{
+	width: 350px;
+	height: 30px;
+	background-color: #000000;
+	margin-top: 18px;
+}
+
+.verif-number-box{
+	width: 200px;
+	height: 30px;
+	background-color: #eee;
+	margin-top: 8%;
+}
+
+.company-logo{
+	position: absolute;
+	top: 80%;
+	left: 50%;	
+	transform: translate(-50%, -50%);
+	background-color: #eee;
+	border-color: #000;
+	border-radius: 7px;
+	border: 2px solid;
+}
+
+.company-logo img{
+	width: 45px;
+	height: 45px;
+}
+
+img.mastercard-logo{
+	height: 33px;
+}
+
+.box-info p{
+	font-size: 13px;
+	text-align: right;
+	font-family: consolas;
+}
+
+.box-info2 p{
+	font-size: 10px;
+	font-family: consolas;
+	font-weight: bolder;
+	text-align: center;
+}
